@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script th:src="@{/js/jquery-3.1.0.min.js}"></script>
+<script th:src="@{/js/app-config.js}"></script>
+</head>
+<body>
+
+	<fieldset>
+		<legend>GET By Key</legend>
+		<form id="getForm">
+			<input id="keyGet"
+				placeholder="Key here..."
+				size="50" /> <input id="sbmt" value="Submit" type="submit" />
+			<div id="resultGet"></div>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Insert new Configuration</legend>
+		<form id="insertForm">
+			 <input id="keyInt" placeholder="Key here..." size="20" />
+			<input id="valueInt" placeholder="Value here..." size="20" /> <input
+				value="Submit" type="submit" />
+			<div id="resultInt"></div>
+		</form>
+	</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link rel="stylesheet" href="css/map.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</head>
+<body>
+
+<div id="nav-menu">
+	<div class="item">
+		<a id="searchMn" class="mnAct"><i class="fa fa-search" aria-hidden="true"></i></a>
+		<a id="searchDirect" class="mnAct"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+	</div>
+</div>
+<div id="nav">
+	
+	<div class="item closeBox">
+		<a href="javascript:void(0)"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+	</div>
+	
+	<div class="item searchMn itmAct">
+		<form id="searchForm" class="form-horizontal">
+				<div class="input-group">
+					<input id="searchBox" type="text" class="form-control" placeholder="Tìm kiếm trên Maps">
+					<input id="searchBt" type="submit" value="Tìm" class="btn"></input>
+				</div>
+			</form>
+	</div>
+	
+	<div class="item title">
+		<ul>
+		  <li>
+			<i class="fa fa-map" aria-hidden="true"></i>
+		  </li>
+		</ul>
+	</div>
+</div>
+<div id="googleMap"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqx8A4YiUgFkpNogBDeCJZN25yyrOEQZM&libraries=places&callback=mapInit"></script>
+
+</body>
+</html>
