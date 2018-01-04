@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import hm.annotation.ApiVersion;
 import hm.model.Response;
-import hm.model.YoutubeResponse;
+import hm.model.youtube.YoutubeResponse;
 import hm.service.IYoutubeService;
 
 @RestController

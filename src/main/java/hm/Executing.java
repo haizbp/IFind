@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 public class Executing {
 
-	private static ExecutorService executor = Executors.newFixedThreadPool(10);
+	private static ExecutorService executor = Executors.newFixedThreadPool(20);
 
 	private Executing() {
 	}

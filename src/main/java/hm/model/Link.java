@@ -34,6 +34,13 @@ public class Link implements Serializable {
 		this.url = url;
 		this.title = title;
 	}
+	
+	public Link(String url, String title, String description) {
+		super();
+		this.url = url;
+		this.title = title;
+		this.description = description;
+	}
 
 	public String getUrl() {
 		return url;

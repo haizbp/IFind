@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import hm.Helper;
-import hm.model.YoutubeItem;
-import hm.model.YoutubeModel;
-import hm.model.YoutubeResponse;
+import hm.model.youtube.YoutubeItem;
+import hm.model.youtube.YoutubeModel;
+import hm.model.youtube.YoutubeResponse;
 
 @Service
 public class YoutubeService implements IYoutubeService {
