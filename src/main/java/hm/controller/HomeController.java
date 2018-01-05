@@ -11,7 +11,7 @@ public class HomeController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
-		return "index";
+		return "home";
 	}
 
 	@RequestMapping(value = "/submit", method = RequestMethod.GET)

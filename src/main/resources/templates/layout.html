@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta th:replace="/layout/meta" />
+<link th:replace="/layout/css" />
+</head>
+<body>
+	<div layout:fragment="header_container"></div>
+	<div layout:fragment="main_container"></div>
+	<div layout:fragment="footer_container"></div>
+	<!-- end main -->
+	<script th:replace="/layout/js" />
+	<div layout:fragment="custom_js"></div>
+</body>
+</html>
