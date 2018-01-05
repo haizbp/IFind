@@ -5,14 +5,12 @@ html {
 
 body{
 	width:100%;
-	height:auto;
+	height:100%;
 	min-width: 1024px;
-	min-height: 100%;
+	min-height: 500px;
 	padding: 0 50px 0 50px;
 	position: relative;
 	max-width: 100%;
-    overflow-x: hidden;
-		max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -198,4 +196,56 @@ footer li a {
     display: block;
 	color: #999;
     text-align: center;
+}
+
+/* -----------------------------------SEARCH RESULT-------------------------------------------------*/
+.searchBox-result {
+	top: 0!important;
+	position:static!important;
+}
+
+.searchResult .li-first{
+	float: left;
+}
+
+.searchResult .li-second{
+	float: right;
+	padding-top: 8px;
+}
+
+#search-result-container {
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 65px;
+	bottom: 0;
+}
+
+.result-count{
+	width: 100%;
+	height: auto;
+	float: left;
+	clear:none;
+}
+
+.result-container {
+	width: 100%;
+	height: auto;
+	float: left;
+	clear:none;
+}
+
+.result-container-right{
+	float: right;
+	clear: none;
+	width: 300px;
+	height: auto;
+}
+
+.result-container-left{
+	float: left;
+	clear:right;
+	width: calc(100% - 300px);
+	height: auto;
 }
